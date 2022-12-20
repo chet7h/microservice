@@ -1,4 +1,4 @@
-package n.v.c.courseservice;
+package n.v.c.registerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class CourseServiceApplication {
+public class RegisterServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CourseServiceApplication.class, args);
+		SpringApplication.run(RegisterServiceApplication.class, args);
 	}
 
 }
